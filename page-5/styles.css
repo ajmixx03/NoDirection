@@ -1,0 +1,19 @@
+.image-container {
+    position: absolute;
+    left: 42%;
+    top: 40%;
+    width: 150px;
+    height: auto;
+  }
+  
+.image-container img {
+    width: 200px;
+    height: auto;
+    opacity: 1;
+    transition: opacity 5s ease;
+  }
+  
+.image-container img.show {
+    opacity: 0;
+  }
+

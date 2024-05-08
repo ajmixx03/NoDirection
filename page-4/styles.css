@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+.container {
+    padding-top: 10px;
+  }
+.title {
+    text-align: center;
+    font-size: 60px;
+  }
+.text-box {
+    width: 40%;
+    border: 1px solid transparent;
+    padding: 10px;
+    padding-left: 10;
+    font-size: 34px;
+  }
+.image-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+.image-link img {
+    width: 100px;
+    height: auto;
+  }

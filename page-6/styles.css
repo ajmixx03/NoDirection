@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.nissan{
+    position: absolute;
+    top: 175px;
+    left: 225px;
+}
+
+.furhat{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+
+.furslippers{
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+}
+
+.abloh{
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+}
+
+.spongebob{
+    position: absolute;
+    top: 600px;
+    left: 600px;
+}
+
+.maison{
+    position: absolute;
+    top: 450px;
+    left: 275px;
+}
+
+.description{
+    position: static;
+    padding-top: 300px;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
+
+p{
+    color: black;
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

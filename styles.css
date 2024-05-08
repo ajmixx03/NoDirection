@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 80px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 80px;
+    color: black;
+}
+
+img {
+    width: 200px;
+    height: 400px;
+    grid-row: inherit;
+}
+
+div.rotate{
+    transform: rotateY(360'angle');
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate{
+    from {
+        transform: rotateY(0deg)
+    }
+    to {
+        transform: rotateY(360deg)
+    }
+}
